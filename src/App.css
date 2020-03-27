@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body{
+  font-family: "Lato" !important;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+/*  background-color: #999;
+  background-image: linear-gradient(to right top, #430729, #410f34, #3c163e, #351d47, #2b244e, #202b53, #133157, #003659, #003c59, #004156, #004653, #044a4e);  */
+  background-image: url("bg3.jpg");
+}
+
+a{
+  color: rgba(0,76,76, 1);
+}
+a:hover{
+  color: rgba(0,128,128, 1);
+  text-decoration: none;
+}
+
+.sidebar {
+  max-width: 240px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-subitem-text {
+  font-size: 0.8rem;
+}
+
+.box{
+  border:1px solid rgba(0,76,76, 0.7);
+  margin:10px;
+  background-color: rgba(255,255,255, 0.6);
+  width: 350px;
+  max-width:328px;
+}
+
+.modal-content{
+  border:1px solid rgba(0,76,76, 0.7);
+  background-color: rgba(255,255,255, 1);
+}
+.modal-header{
+  background: #003d3d;
+  color:#FFF;
+}
+.modal-body{
+  font-size:1.1rem;
+}
+
+.btn-info{
+  border-color:none !important;
+  box-shadow: none !important;
+}
+
+.app{
+}
+
+.horseGrid{
+}
+
+.more-info{
+  background:transparent !important;
+  border: none !important;
+  transition: margin 500ms;
+}
+.more-info:hover, .more-info:active{
+  margin-left:20px;
+  background:transparent !important;
+  border: none !important;
+}
+
+.card-title{
+  font-family: "Permanent Marker";
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #003d3d;
+  max-width:328px;
+}
+
+.card-text{
+  font-size: 0.9rem;
+  max-width:328px;
+}
+
+.button-link{
+  max-width:328px;
+  }
+
+.collapsible{
+  background:transparent;
+  padding: 0px 5px !important;
+}
+
+@media (min-width: 576px){
+  .modal-dialog {
+      max-width: 800px;
+      margin: 1.75rem auto;
+  }
+
+  .modal-body{
+    padding:1rem;
+  }
+}
+
+.col-sm-6{
+  margin:0 10px;
+}
+
+.modal-card-body{
+  padding: 10px 0;
+}
+
+.btn, .btn:visited, .btn:focus,  .btn:focus-within{
+  background: #26154C;
+  border: 1px solid #36296F;
+}
+
+.btn:hover{
+  background: #36296F !important;
+  border: 1px solid #36296F !important;
+}
+.btn:active{
+  background: #613187 !important;
+  border:1px solid #7D3391 !important;
+}
