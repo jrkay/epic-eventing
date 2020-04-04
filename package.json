@@ -2,7 +2,7 @@
   "name": "hfepic",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://silly-mcnulty-2d94fe.netlify.com/",
   "mode": "production",
   "main": "src/index.js",
   "dependencies": {
